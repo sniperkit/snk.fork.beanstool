@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
@@ -5,8 +10,9 @@ import (
 
 	"github.com/agtorre/gocolorize"
 	"github.com/jessevdk/go-flags"
-	"github.com/src-d/beanstool/cli"
 	"golang.org/x/crypto/ssh/terminal"
+
+	"github.com/sniperkit/snk.fork.beanstool/cli"
 )
 
 func main() {
